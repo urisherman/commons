@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5584b482-89d2-49b7-8322-7247dfe8a2cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/traintracks.py" beforeDir="false" afterPath="$PROJECT_DIR$/commons/traintracks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/traintracks_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/traintracks_test.py" afterDir="false" />
-    </list>
+    <list default="true" id="5584b482-89d2-49b7-8322-7247dfe8a2cc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +33,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/notebooks" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -102,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599640918004</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update traintracks">
+      <created>1599641758645</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599641758645</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,17 +121,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Update traintracks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update traintracks" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2493" y="361" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592410276459">
-      <screen x="1792" y="23" width="1920" height="1057" />
-    </state>
-    <state x="2493" y="361" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1592410276459" />
-    <state x="3165" y="152" key="CommitChangelistDialog2" timestamp="1599641673099">
+    <state x="3261" y="361" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599641852784">
       <screen x="2560" y="23" width="1920" height="1057" />
     </state>
-    <state x="3165" y="152" key="CommitChangelistDialog2/0.23.2560.1417/-1792.23.1792.1097/2560.23.1920.1057@2560.23.1920.1057" timestamp="1599641673099" />
+    <state x="2493" y="361" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1592410276459" />
+    <state x="3261" y="361" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1417/-1792.23.1792.1097/2560.23.1920.1057@2560.23.1920.1057" timestamp="1599641852784" />
+    <state x="3165" y="152" key="CommitChangelistDialog2" timestamp="1599641758580">
+      <screen x="2560" y="23" width="1920" height="1057" />
+    </state>
+    <state x="3165" y="152" key="CommitChangelistDialog2/0.23.2560.1417/-1792.23.1792.1097/2560.23.1920.1057@2560.23.1920.1057" timestamp="1599641758580" />
     <state x="2792" y="161" width="1720" height="857" key="DiffContextDialog" timestamp="1599641511523">
       <screen x="2560" y="23" width="1920" height="1057" />
     </state>
@@ -181,10 +186,10 @@
       <screen x="1792" y="23" width="1920" height="1057" />
     </state>
     <state x="2217" y="203" key="SettingsEditor/0.23.1792.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1592411383114" />
-    <state x="3120" y="291" key="Vcs.Push.Dialog.v2" timestamp="1599640925543">
+    <state x="3120" y="291" key="Vcs.Push.Dialog.v2" timestamp="1599641760344">
       <screen x="2560" y="23" width="1920" height="1057" />
     </state>
-    <state x="3120" y="291" key="Vcs.Push.Dialog.v2/0.23.2560.1417/-1792.23.1792.1097/2560.23.1920.1057@2560.23.1920.1057" timestamp="1599640925543" />
+    <state x="3120" y="291" key="Vcs.Push.Dialog.v2/0.23.2560.1417/-1792.23.1792.1097/2560.23.1920.1057@2560.23.1920.1057" timestamp="1599641760344" />
     <state x="2445" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1594119275848">
       <screen x="1792" y="23" width="1920" height="1057" />
     </state>
