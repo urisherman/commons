@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5584b482-89d2-49b7-8322-7247dfe8a2cc" name="Default Changelist" comment="" />
+    <list default="true" id="5584b482-89d2-49b7-8322-7247dfe8a2cc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/traintracks.py" beforeDir="false" afterPath="$PROJECT_DIR$/commons/traintracks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/traintracks_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/traintracks_test.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +20,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1Yz8Xyg0FJyeMB30rda3z05YNgK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -84,37 +95,72 @@
       <option name="presentableId" value="Default" />
       <updated>1583934105417</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1599640918004</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599640918004</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2493" y="361" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592410276459">
       <screen x="1792" y="23" width="1920" height="1057" />
     </state>
     <state x="2493" y="361" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1592410276459" />
+    <state x="3165" y="152" key="CommitChangelistDialog2" timestamp="1599641673099">
+      <screen x="2560" y="23" width="1920" height="1057" />
+    </state>
+    <state x="3165" y="152" key="CommitChangelistDialog2/0.23.2560.1417/-1792.23.1792.1097/2560.23.1920.1057@2560.23.1920.1057" timestamp="1599641673099" />
+    <state x="2792" y="161" width="1720" height="857" key="DiffContextDialog" timestamp="1599641511523">
+      <screen x="2560" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2792" y="161" width="1720" height="857" key="DiffContextDialog/0.23.2560.1417/-1792.23.1792.1097/2560.23.1920.1057@2560.23.1920.1057" timestamp="1599641511523" />
     <state x="2310" y="285" key="FileChooserDialogImpl" timestamp="1592411376140">
       <screen x="1792" y="23" width="1920" height="1057" />
     </state>
     <state x="2310" y="285" key="FileChooserDialogImpl/0.23.1792.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1592411376140" />
-    <state width="1899" height="268" key="GridCell.Tab.0.bottom" timestamp="1599640801456">
+    <state x="3391" y="452" key="Github.ShareDialog" timestamp="1599641047470">
+      <screen x="2560" y="23" width="1920" height="1057" />
+    </state>
+    <state x="3391" y="452" key="Github.ShareDialog/0.23.2560.1417/-1792.23.1792.1097/2560.23.1920.1057@2560.23.1920.1057" timestamp="1599641047470" />
+    <state width="1899" height="556" key="GridCell.Tab.0.bottom" timestamp="1599641638457">
       <screen x="2560" y="23" width="1920" height="1057" />
     </state>
     <state width="1899" height="357" key="GridCell.Tab.0.bottom/0.23.1792.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1593762753611" />
-    <state width="1899" height="268" key="GridCell.Tab.0.bottom/0.23.2560.1417/-1792.23.1792.1097/2560.23.1920.1057@2560.23.1920.1057" timestamp="1599640801456" />
-    <state width="1899" height="268" key="GridCell.Tab.0.center" timestamp="1599640801455">
+    <state width="1899" height="556" key="GridCell.Tab.0.bottom/0.23.2560.1417/-1792.23.1792.1097/2560.23.1920.1057@2560.23.1920.1057" timestamp="1599641638457" />
+    <state width="1899" height="556" key="GridCell.Tab.0.center" timestamp="1599641638456">
       <screen x="2560" y="23" width="1920" height="1057" />
     </state>
     <state width="1899" height="357" key="GridCell.Tab.0.center/0.23.1792.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1593762753610" />
-    <state width="1899" height="268" key="GridCell.Tab.0.center/0.23.2560.1417/-1792.23.1792.1097/2560.23.1920.1057@2560.23.1920.1057" timestamp="1599640801455" />
-    <state width="1899" height="268" key="GridCell.Tab.0.left" timestamp="1599640801454">
+    <state width="1899" height="556" key="GridCell.Tab.0.center/0.23.2560.1417/-1792.23.1792.1097/2560.23.1920.1057@2560.23.1920.1057" timestamp="1599641638456" />
+    <state width="1899" height="556" key="GridCell.Tab.0.left" timestamp="1599641638456">
       <screen x="2560" y="23" width="1920" height="1057" />
     </state>
     <state width="1899" height="357" key="GridCell.Tab.0.left/0.23.1792.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1593762753610" />
-    <state width="1899" height="268" key="GridCell.Tab.0.left/0.23.2560.1417/-1792.23.1792.1097/2560.23.1920.1057@2560.23.1920.1057" timestamp="1599640801454" />
-    <state width="1899" height="268" key="GridCell.Tab.0.right" timestamp="1599640801455">
+    <state width="1899" height="556" key="GridCell.Tab.0.left/0.23.2560.1417/-1792.23.1792.1097/2560.23.1920.1057@2560.23.1920.1057" timestamp="1599641638456" />
+    <state width="1899" height="556" key="GridCell.Tab.0.right" timestamp="1599641638456">
       <screen x="2560" y="23" width="1920" height="1057" />
     </state>
     <state width="1899" height="357" key="GridCell.Tab.0.right/0.23.1792.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1593762753610" />
-    <state width="1899" height="268" key="GridCell.Tab.0.right/0.23.2560.1417/-1792.23.1792.1097/2560.23.1920.1057@2560.23.1920.1057" timestamp="1599640801455" />
+    <state width="1899" height="556" key="GridCell.Tab.0.right/0.23.2560.1417/-1792.23.1792.1097/2560.23.1920.1057@2560.23.1920.1057" timestamp="1599641638456" />
     <state width="1899" height="357" key="GridCell.Tab.1.bottom" timestamp="1593762753611">
       <screen x="1792" y="23" width="1920" height="1057" />
     </state>
@@ -135,6 +181,10 @@
       <screen x="1792" y="23" width="1920" height="1057" />
     </state>
     <state x="2217" y="203" key="SettingsEditor/0.23.1792.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1592411383114" />
+    <state x="3120" y="291" key="Vcs.Push.Dialog.v2" timestamp="1599640925543">
+      <screen x="2560" y="23" width="1920" height="1057" />
+    </state>
+    <state x="3120" y="291" key="Vcs.Push.Dialog.v2/0.23.2560.1417/-1792.23.1792.1097/2560.23.1920.1057@2560.23.1920.1057" timestamp="1599640925543" />
     <state x="2445" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1594119275848">
       <screen x="1792" y="23" width="1920" height="1057" />
     </state>
@@ -149,7 +199,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/commons/traintracks.py</url>
-          <line>168</line>
+          <line>186</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

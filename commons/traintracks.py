@@ -2,6 +2,8 @@ import time
 import logging
 import os
 
+from logging.handlers import RotatingFileHandler
+
 from pathlib import Path
 from shutil import copyfile
 
@@ -22,6 +24,8 @@ class TrainTracker(object):
         self.metrics = {}
         self.loggers = {}
         self.plots = {}
+        self.default_trigger_period = None
+        self.default_trigger_counter = None
         self.triggers = []
         self.mem_threshold = mem_threshold
         self.mem_max_overflow = int(.5 * mem_threshold)
@@ -56,7 +60,7 @@ class TrainTracker(object):
         module_file_name = os.path.basename(module_path)
         copyfile(module_path, self.path('saved-modules', module_file_name))
 
-    def start(self, counter_name, val=None):
+    def start(self, counter_name):
         if counter_name not in self.counters:
             self.counters[counter_name] = 0
 
@@ -79,7 +83,8 @@ class TrainTracker(object):
 
             log_file = self.path('metrics', f'{name}.jsonl')
 
-            fh = logging.FileHandler(log_file)
+            # fh = logging.FileHandler(log_file)
+            fh = RotatingFileHandler(log_file, backupCount=100)
             fh.setLevel(logging.DEBUG)
 
             formatter = logging.Formatter('%(message)s')
@@ -126,22 +131,35 @@ class TrainTracker(object):
 
         return m_val
 
-    def add_trigger(self, period, counter, cb):
+    def set_default_trigger(self, trigger_period, trigger_counter):
+        self.default_trigger_period = trigger_period
+        self.default_trigger_counter = trigger_counter
+
+    def add_callback(self, cb, trigger_period=None, trigger_counter=None):
         self.triggers.append({
-            'counter': counter,
-            'period': period,
+            'counter': trigger_counter or self.default_trigger_counter,
+            'period': trigger_period or self.default_trigger_period,
             'cb': cb
         })
 
-    def add_plot(self, metric, frequency_period, frequency_counter, x_axis=None, movingavg=None, last_n=None):
+    def logs_rollover(self, period, counter):
+        def roll_all_logs():
+            for log in self.loggers.values():
+                log.handlers[0].doRollover()
+
+        self.add_callback(roll_all_logs, period, counter)
+
+    def add_plot(self, metric, trigger_period=None, trigger_counter=None, x_axis=None, movingavg=None, last_n=None):
+        trigger_period = trigger_period or self.default_trigger_period
+        trigger_counter = trigger_counter or self.default_trigger_counter
 
         if x_axis is None:
-            x_axis = frequency_counter
+            x_axis = trigger_counter
 
         if metric not in self.plots:
             self.plots[metric] = {
-                'freq_period': frequency_period,
-                'freq_counter': frequency_counter,
+                'freq_period': trigger_period,
+                'freq_counter': trigger_counter,
                 'movingavg': movingavg,
                 'last_n': last_n,
                 'x_axis': x_axis
@@ -167,7 +185,7 @@ class TrainTracker(object):
             i = 0
             for ys in y_data:
                 xs = (x_data[i],) * len(ys)
-                plt.plot(xs, ys, 'o', color='C0')
+                plt.plot(xs, ys, 'o', color='C0', alpha=.5)
                 i += 1
         else:
             movingavg = plot_spec['movingavg']

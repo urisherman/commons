@@ -24,11 +24,11 @@ class TestTrainTracker(unittest.TestCase):
 
         tracker.add_plot('many_vals', 2000, 'iteration', movingavg=100, last_n=500)
 
-        tracker.add_trigger(2000, 'iteration', lambda: print(tracker.counters['iteration']))
+        tracker.add_callback(lambda: print(tracker.counters['iteration']), 2000, 'iteration')
 
         for epoch in range(5):
 
-            tracker.start('epoch', epoch)
+            tracker.start('epoch')
 
             for i in range(5000):
                 tracker.start('iteration')
